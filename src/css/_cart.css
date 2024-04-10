@@ -1,0 +1,127 @@
+.cart-items-container {
+    width: 100%;
+}
+
+.cart-container {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+@media screen and (max-width: 547px) {
+    .cart-container {
+        padding: 0px;
+    }
+}
+
+.cart-head {
+    margin: 30px 0;
+}
+
+.cart-delete-item img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.cart-item {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-item img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 547px) {
+    .cart-item img {
+        display: none;
+    }
+}
+
+.cart-item-counter {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.cart-item-counter button {
+    background: #D9D9D9;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.3rem;
+}
+
+.cart-item-counter p {
+    border-radius: 22px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 58px;
+    height: 24px;
+    text-align: center;
+}
+
+.cart-item-info {
+    width: 100%;
+    padding: 10px;
+}
+
+.cart-item-info h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.cart-item-info p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.cart-bottom {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.cart-bottom a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-price {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px ;
+}
+
+.cart-price b {
+    font-size: 1.3rem;
+}
+
+.cart-price p {
+    text-decoration: line-through;
+}
+
+.cart-total-container {
+    margin-top: 50px;
+}
