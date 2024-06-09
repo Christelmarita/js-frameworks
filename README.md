@@ -48,3 +48,11 @@ Contribute by opening a pull request.
 
 [My LinkedIn page](https://www.linkedin.com/in/christelosterboe/)
 [Email](christel.marita@onibodesign.no)
+
+## Acknowledgments
+
+This project has been made possible through the support of various contributors:
+
+- **Noroff:** Special appreciation to Noroff for providing the API and invaluable guidance in the form of past courses and modules throughout the development process.
+
+- **Student Discord Community:** Gratitude to the student Discord community for their assistance and encouragement during the challenges faced while working on this project.
